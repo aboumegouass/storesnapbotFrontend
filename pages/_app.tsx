@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       resources: locales,
       lng: lang,
       // if you're using a language detector, do not define the lng option    
-      fallbackLng: lang,
+      fallbackLng: "ar",
       interpolation: {
         escapeValue: false
         // react already safes from xss =>-function/interpolation#unescape    
