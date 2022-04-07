@@ -378,36 +378,87 @@ body {
     }
 }
 .app-label {
-    padding: 5px 8px;
+    padding: 2px 6px;
     background-color: #f3f3f3;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #333;
-    font-size: 14px;
+    font-size: 12px;
     &.primary {
-        background-color: $primary;
-        color: #fff;
+        background-color: lighten($primary, 38);
+        color: #000;
     }
     &.blue {
-        background-color: #2a47c7;
-        color: #fff;
+        background-color: #c6cffa;
+        color: rgba(0, 0, 0, 0.849);
     }
     &.orange {
-        background-color: #d15a15;
-        color: #fff;
+        background-color: #fad5c0;
+        color: rgba(0, 0, 0, 0.849);
     }
     &.pink {
-        background-color: #9c15d1;
+        background-color: #edc8fc;
+        color: rgba(0, 0, 0, 0.849);
+    }
+}
+.app-panel-colored {
+    background-size: cover;
+    padding: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 12px;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(#000, 0.7);
+        z-index: 10;
+    }
+    .title, .item-num {
+        position: relative;
+        z-index: 11;
         color: #fff;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.61);
+        margin: 0;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        margin-bottom: 7px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+    }
+    .item-num {
+        font-weight: 100;
+        font-size: 14px;
+        display: flex;
+        line-height: 30px;
+    }
+    &.white {
+        border: 1px solid #f7f7f7;
+        box-shadow: -6px 6px 9px rgba(0, 0, 0, 0.055);
+        &::after {
+            background-color: rgba(rgb(255, 255, 255), 0.7);
+        }
+        .title, .item-num {
+            color: #333;
+            text-shadow: none;
+        }
+        .title {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+        }
     }
 }
 // Panel
 .app-panel {
-    box-shadow: 12px 15px 18px rgba(0, 0, 0, 0.103);
-    width: 450px;
     margin: 20px auto;
     position: relative;
     overflow: hidden;
-    border-radius: 12px;
+    border: 1px solid #f6f6f6;
+    border-radius: 6px;
     z-index: 25;
     .app-panel-header {
         text-align: center;
@@ -418,6 +469,42 @@ body {
     }
     .app-panel-content {
         background-color: #fff;
+        &.is-list {
+            padding: 0;
+        }
+        .post-item {
+            &.post-order {
+                display: flex;
+                flex-direction: column;
+                padding: 8px 12px;
+                transition: all 0.3s;
+                border-bottom: 1px solid #f9f9f9;
+                &:hover {
+                    background-color: #f9f9f9;
+                    transition: all 0.3s;
+                }
+                &:last-of-type {
+                    border-bottom: 0;  
+                }
+                .meta-text {
+                    margin: 0;
+                    font-weight: 200;
+                    color: #555;
+                    display: flex;
+                    align-items: center;
+                    font-size: 12px;
+                    margin-bottom: 8px;
+                    .material-icons {
+                        font-size: 17px;
+                        margin-right: 3px;
+                    }
+                }
+                .title {
+                    font-weight: bold;
+                    font-size: 17px;
+                }
+            }
+        }
     }
     .app-panel-footer {
         background-color: #f4f4f4;
@@ -460,6 +547,7 @@ body {
     padding: 15px;
     background-color: #fff;
     border: 1px solid #ddd;
+    margin-bottom: 7px;
     .text {
         margin: 0;
         font-size: 15px;
@@ -467,6 +555,10 @@ body {
         display: flex;
         align-content: center;
         align-items: center;
+        strong {
+            font-weight: bold;
+            margin-left: 2px;
+        }
         .material-icons {
             font-size: 18px;
             margin-left: 7px;

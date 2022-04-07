@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import LastSeen from './LastSeen';
 import { useTranslation } from "react-i18next";
 
-function OrderPost({ id, time, type }: any): ReactElement {
+function OrderPost({ id, time, type, title }: any): ReactElement {
     const { t } = useTranslation();
 
     function switchType() {
@@ -34,8 +34,8 @@ function OrderPost({ id, time, type }: any): ReactElement {
                     </span>
                     <LastSeen date={time} />
                 </p>
-                <h4 className="title">
-                    {switchType()}
+                <h4 className="title d-flex">
+                    {title} <span className='me-auto'>{switchType()}</span>
                 </h4>
             </a>
         </Link>
@@ -47,4 +47,5 @@ OrderPost.propTypes = {
     id: PropTypes.any,
     time: PropTypes.any,
     type: PropTypes.any,
+    title: PropTypes.any,
 }

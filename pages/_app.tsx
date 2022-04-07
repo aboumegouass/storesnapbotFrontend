@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     .init({
       // the translations    
       // (tip move them in a JSON file and import them,    
-      // or even better, manage them via)    
+      // or even better, manage them via)
       resources: locales,
       lng: lang,
       // if you're using a language detector, do not define the lng option    

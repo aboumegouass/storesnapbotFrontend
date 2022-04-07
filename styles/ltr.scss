@@ -103,6 +103,9 @@ body {
 // Alerts Style
 .app-alert {
     .text {
+        strong {
+            margin-right: 2px;
+        }
         .material-icons {
             margin-right: 7px;
         }
@@ -160,6 +163,15 @@ body {
     &.butt-lg {
         .material-icons {
             margin-left: 7px;
+        }
+    }
+}
+.post-item {
+    &.post-order {
+        .meta-text {
+            .material-icons {
+                margin-left: 3px;
+            }
         }
     }
 }
