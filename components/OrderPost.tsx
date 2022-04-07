@@ -10,16 +10,16 @@ function OrderPost({ id, time, type }: any): ReactElement {
     function switchType() {
         switch (type) {
             case 0:
-                return (<span className="app-label primary">{t('pending_text')}</span>)
-
+                return (<span className="app-label primary">{t('processing_text')}</span>)
+                
             case 1:
-                return (<span className="app-label orange">{t('pending_text')}</span>)
+                return (<span className="app-label orange">{t('delivering_text')}</span>)
 
             case 2:
-                return (<span className="app-label blue">{t('pending_text')}</span>)
+                return (<span className="app-label blue">{t('completed_text')}</span>)
 
             case 3:
-                return (<span className="app-label pink">{t('pending_text')}</span>)
+                return (<span className="app-label pink">{t('cancelled_text')}</span>)
 
             default:
                 break;
