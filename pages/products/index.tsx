@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useTranslation } from "react-i18next";
-import AppLayout from '../layouts/AppLayout'
-import PageHeader from '../components/PageHeader'
+import AppLayout from '../../layouts/AppLayout'
 import { Table, Tag, Space } from 'antd';
 
 const columns = [
@@ -87,17 +86,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white p-4 mt-3'>
-        <div className="row">
-          <div className="col-md-4">
-            <PageHeader title={t('latest_orders_text')} size='xs' showAllText={t('show_all_text')} link='/orders' />
-            <div className="app-panel">
-              <div className="app-panel-content">
-                
-              </div>
-            </div>
-          </div>
-        </div>
+      <main>
+        <h1>
+          {t('Logout')}
+        </h1>
         <Table columns={columns} dataSource={data} />
       </main>
 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.6203867"
+     inkscape:cx="493.73179"
+     inkscape:cy="331.04198"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path846"
+       style="fill:#4cc245;fill-opacity:1;stroke:none;stroke-width:2.74724"
+       d="m 103.93988,79.039339 a 6.7013386,6.7013386 0 0 0 -6.700855,6.700857 6.7013386,6.7013386 0 0 0 0.986673,3.493184 c -0.134342,1.409394 -0.339667,3.762842 -0.223994,3.862303 0.118808,0.102158 1.804381,-0.89516 2.747856,-1.466995 a 6.7013386,6.7013386 0 0 0 3.19032,0.813157 6.7013386,6.7013386 0 0 0 6.70165,-6.701649 6.7013386,6.7013386 0 0 0 -6.70165,-6.700857 z"
+       inkscape:export-filename="C:\Users\aboum\snapbot\public\favicon.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g3826"
+       transform="matrix(1.5262418,0,0,1.5262418,-52.17064,-48.423587)"
+       inkscape:export-filename="C:\Users\aboum\snapbot\public\favicon.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.37794px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:0.0628446;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="87.887978"
+         y="102.62786"
+         id="text3398"
+         transform="rotate(-7.611259)"><tspan
+           sodipodi:role="line"
+           id="tspan3396"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Wingdings;-inkscape-font-specification:Wingdings;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:0.0628446;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="87.887978"
+           y="102.62786">S</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.18536px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.179635"
+         x="99.760582"
+         y="90.103477"
+         id="text2492"><tspan
+           sodipodi:role="line"
+           id="tspan2490"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Wingdings;-inkscape-font-specification:Wingdings;fill:#ffffff;stroke-width:0.179635"
+           x="99.760582"
+           y="90.103477">S</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.69164px;line-height:1.25;font-family:sans-serif;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.403818"
+       x="119.94012"
+       y="89.707619"
+       id="text6115"
+       inkscape:export-filename="C:\Users\aboum\snapbot\public\logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan6113"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.69164px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic Light';fill:#4d4d4d;stroke-width:0.403818"
+         x="119.94012"
+         y="89.707619"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.69164px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic Bold';fill:#4d4d4d;stroke-width:0.403818"
+   id="tspan19869">Snap</tspan>Bot</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#ffffff;stroke-width:0.0992056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect29453"
+       width="0.42831379"
+       height="11.564473"
+       x="115.30006"
+       y="79.927788"
+       inkscape:export-filename="C:\Users\aboum\snapbot\public\logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
