@@ -120,6 +120,22 @@ body {
   height: 90%;
 }
 
+.show-order .show-order-content .show-order-button .btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 6px;
+}
+
 .app-sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1046,7 +1062,7 @@ body {
 }
 
 .btn.butt-xs .material-icons {
-  font-size: 16px;
+  font-size: 15px;
   margin-right: 4px;
 }
 
@@ -1058,7 +1074,7 @@ body {
 }
 
 .btn.butt-sm .material-icons {
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 3px;
 }
 
@@ -1069,19 +1085,20 @@ body {
 }
 
 .btn.butt-md .material-icons {
-  font-size: 18px;
-  margin-right: 6px;
+  font-size: 15px;
+  margin-right: 4px;
 }
 
 .btn.butt-lg {
   border-width: 4px;
-  font-size: 14px;
+  font-size: 16px;
   padding: 9px 17px;
 }
 
 .btn.butt-lg .material-icons {
-  font-size: 19px;
-  margin-right: 7px;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-top: -4px;
 }
 
 .btn.butt-primary {
@@ -1166,6 +1183,54 @@ body {
 .btn.butt-red:focus {
   background-color: #901e1e;
   border-color: #901e1e;
+}
+
+.btn.butt-light {
+  background-color: #c9c9c9;
+  border-color: #c9c9c9;
+  color: #222;
+}
+
+.btn.butt-light:hover {
+  background-color: #bcbcbc;
+  border-color: #bcbcbc;
+}
+
+.btn.butt-light:focus {
+  background-color: #a8a8a8;
+  border-color: #a8a8a8;
+}
+
+.btn.butt-dark {
+  background-color: #252525;
+  border-color: #252525;
+  color: #f2f2f2;
+}
+
+.btn.butt-dark:hover {
+  background-color: #181818;
+  border-color: #181818;
+}
+
+.btn.butt-dark:focus {
+  background-color: #040404;
+  border-color: #040404;
+}
+
+.btn.butt-blue {
+  background-color: #284baa;
+  border-color: #284baa;
+  color: #fff;
+}
+
+.btn.butt-blue:hover {
+  background-color: #234295;
+  border-color: #234295;
+}
+
+.btn.butt-blue:focus {
+  background-color: #1b3374;
+  border-color: #1b3374;
 }
 
 .btn.butt-red-out {

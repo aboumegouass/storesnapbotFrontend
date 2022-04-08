@@ -12,9 +12,15 @@ function index(props: any): ReactElement {
 
             case 'primary':
                 return 'butt-primary'
-                
+
+            case 'primary2':
+                return 'butt-primary2'
+
             case 'green':
                 return 'butt-green'
+
+            case 'blue':
+                return 'butt-blue'
 
             default:
                 return 'butt-primary'
@@ -30,6 +36,12 @@ function index(props: any): ReactElement {
 
             case 'md':
                 return 'butt-md'
+
+            case 'lg':
+                return 'butt-lg'
+
+            case 'xl':
+                return 'butt-xl'
 
             default:
                 return 'butt-sm'

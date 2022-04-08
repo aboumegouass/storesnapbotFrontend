@@ -85,7 +85,9 @@ export function GetSingleOrder({ selectedId, setSelectedId }: any) {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="show-order-button">
-                    <Button handleClick={() => { console.log('Test') }} title={t('accept_order_text')} />
+                    <Button icon='done' handleClick={() => { console.log('Test') }} size='lg' title={t('accept_order_text')} />
+                    <Button icon='published_with_changes' handleClick={() => { console.log('Test') }} size='lg' title={t('delay_order_text')} type='blue' />
+                    <Button icon='clear' handleClick={() => { console.log('Test') }} size='lg' title={t('cancel_order_text')} type='light' />
                   </div>
                 </div>
               </div>
